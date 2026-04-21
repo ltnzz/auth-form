@@ -1,18 +1,42 @@
-# Auth Form
+```md
+## Form Auth
+- Nama  : Latanza Akbar Fadilah
+- NIM   : 2410501004
+- Aplikasi : Auth Form App (Login & Register)
 
-**Nama:** Latanza Akbar Fadilah  
-**NIM:** 2410501004
+---
 
-Project ini adalah aplikasi Form sederhana yang mengimplementasikan fitur autentikasi pengguna berupa login dan registrasi. Aplikasi ini bisa membuat user mengupload foto nya sendiri ketika registrasi dan akan diarahkan ke Home setelah login selesai.
+## Deskripsi Aplikasi
+Aplikasi Auth Form adalah aplikasi mobile berbasis React Native (Expo) yang berfungsi untuk mengelola autentikasi pengguna melalui fitur Login dan Register.
 
-## Fitur Utama
+Aplikasi ini memiliki sistem form yang lengkap dengan validasi menggunakan Formik dan Yup, serta mendukung multi-step form pada proses registrasi. Data pengguna disimpan secara lokal menggunakan AsyncStorage sehingga dapat digunakan kembali saat proses login.
 
-- **Formik:** Digunakan untuk mengelola state form seperti input value, error, dan status submit agar lebih terstruktur dan mudah dikontrol.
-- **Yup:** Digunakan sebagai schema validation untuk memastikan input user valid (misalnya format email, panjang password, dan konfirmasi password).
-- **Expo Image Picker:** Digunakan untuk memilih foto profil dari galeri perangkat.
-- **AsyncStorage:** Digunakan untuk menyimpan data user secara lokal agar tetap tersedia meskipun aplikasi ditutup (tanpa database).
+Fitur utama:
+- Login dengan validasi email dan password
+- Register multi-step (Data Pribadi → Akun → Review)
+- Upload foto profil dari galeri
+- Password strength indicator (weak, medium, strong)
+- Auto focus antar input
+- Custom alert (bukan alert bawaan)
+- Penyimpanan data menggunakan AsyncStorage
+- Animasi transisi antar step
 
-## Screenshot Preview
+---
+
+## Dependency & Library yang Digunakan
+
+- React Native (Expo)
+- Formik → manajemen form
+- Yup → validasi form
+- @react-navigation/native → navigasi antar screen
+- @react-native-async-storage/async-storage → penyimpanan data lokal
+- expo-image-picker → upload foto dari galeri
+- @expo/vector-icons → icon UI
+- React Native Animated API → animasi transisi
+
+---
+
+## Screenshot
 
 <div align="center">
   <img src="./screenshot/signin.jpeg" width="180" alt="Login Screen" />
@@ -28,25 +52,28 @@ Project ini adalah aplikasi Form sederhana yang mengimplementasikan fitur autent
   <img src="./screenshot/homescreen.jpeg" width="180" alt="Home Screen" />
 </div>
 
+---
+
 ## Cara Menjalankan
 
-Aplikasi ini menggunakan Expo.
-
-### 1. Clone Repository
-
-```bash
-git clone https://github.com/ltnzz/auth-form
-cd auth-form
+1. Install dependency:
 ```
 
-### 2. Install Dependencies
-
-```bash
 npm install
+
 ```
 
-### 3. Jalankan Aplikasi
+2. Jalankan aplikasi:
+```
 
-```bash
 npx expo start
+
 ```
+
+3. Jalankan di device:
+- Scan QR dengan Expo Go (Android/iOS)
+- Tekan `a` untuk Android emulator
+- Tekan `i` untuk iOS simulator
+```
+
+---
