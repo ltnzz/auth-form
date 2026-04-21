@@ -1,70 +1,39 @@
-```md
-# Auth Form - P7
+# Auth Form
 
-## 📌 Deskripsi
-Auth Form adalah komponen form autentikasi (Login & Register) berbasis React Native (Expo)
+**Nama:** Latanza Akbar Fadilah
+**NIM:** 2410501004  
 
-## 👤 Informasi Mahasiswa
-- Nama: Latanza Akbar Fadilah  
-- NIM: 2410501004  
-- Auth Form
+Project ini adalah aplikasi Form sederhana yang mengimplementasikan fitur autentikasi pengguna berupa login dan registrasi. Aplikasi ini bisa membuat user mengupload foto nya sendiri ketika registrasi dan akan diarahkan ke Home setelah login selesai.
 
-## ⚙️ Fitur
-- Login Form
-- Register Form
-- Validasi input (email & password)
-- Konfirmasi password (harus sama)
-- Error handling form
-- UI sederhana dan mobile-friendly
+## Fitur Utama
+- **Formik:** Digunakan untuk mengelola state form seperti input value, error, dan status submit agar lebih terstruktur dan mudah dikontrol.
+- **Yup:** Digunakan sebagai schema validation untuk memastikan input user valid (misalnya format email, panjang password, dan konfirmasi password).
+- **Expo Image Picker:** Digunakan untuk memilih foto profil dari galeri perangkat.
+- **AsyncStorage:** Digunakan untuk menyimpan data user secara lokal agar tetap tersedia meskipun aplikasi ditutup (tanpa database).
 
-## 🧱 Teknologi yang Digunakan
-- React Native (Expo)
-- Formik
-- Yup (validasi schema)
-- React Navigation (opsional)
-- Expo Vector Icons
+## Bonus Level 3
+- Data Persistence dengan AsyncStorage
+- Validasi Login terhadap Data Register
+- Autentikasi Sederhana Tanpa Database
 
-````
+## Screenshot Preview
+<!-- Tambahkan screenshot Anda di sini -->
 
-## 🚀 Cara Menjalankan Project
+## Cara Menjalankan
+Aplikasi ini menggunakan Expo.
 
-1. Clone repository
+### 1. Clone Repository
 ```bash
-git clone https://github.com/ltnzz/auth-form
-````
-
-2. Masuk ke folder project
-
-```bash
+git clone <URL_REPOSITORY>
 cd auth-form
 ```
 
-3. Install dependency
-
+### 2. Install Dependencies
 ```bash
 npm install
 ```
 
-4. Jalankan aplikasi
-
+### 3. Jalankan Aplikasi
 ```bash
 npx expo start
-```
-
-## 🔐 Validasi Password
-
-* Password minimal 6 karakter
-* Confirm password harus sama dengan password
-* Email harus format valid
-
-## 🧠 Catatan
-
-* Pastikan Expo sudah terinstall
-* Gunakan emulator atau device fisik untuk testing
-* Jika error validasi, cek schema Yup
-
-## 📷 Preview
-
-*(Tambahkan screenshot di sini jika ada)*
-
 ```
