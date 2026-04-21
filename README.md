@@ -15,17 +15,17 @@ Project ini adalah aplikasi Form sederhana yang mengimplementasikan fitur autent
 ## Screenshot Preview
 
 <div align="center">
-  <img src="./screenshot/signin.jpeg" width="200" alt="Login Screen" />
+  <img src="./screenshot/signin.jpeg" width="180" alt="Login Screen" />
   &nbsp;&nbsp;&nbsp;
-  <img src="./screenshot/signup-step1.jpeg" width="200" alt="Register Screen" />
+  <img src="./screenshot/signup-step1.jpeg" width="180" alt="Register Screen" />
   &nbsp;&nbsp;&nbsp;
-  <img src="./screenshot/signup-step2.jpeg" width="200" alt="Upload Photo Screen" />
+  <img src="./screenshot/signup-step2.jpeg" width="180" alt="Upload Photo Screen" />
   &nbsp;&nbsp;&nbsp;
-  <img src="./screenshot/signup-step3.jpeg" width="200" alt="Home Screen" />
+  <img src="./screenshot/signup-step3.jpeg" width="180" alt="Home Screen" />
   &nbsp;&nbsp;&nbsp;
-  <img src="./screenshot/signup-photo.jpeg" width="200" alt="Home Screen" />
+  <img src="./screenshot/signup-photo.jpeg" width="180" alt="Home Screen" />
   &nbsp;&nbsp;&nbsp;
-  <img src="./screenshot/homescreen.jpeg" width="200" alt="Home Screen" />
+  <img src="./screenshot/homescreen.jpeg" width="180" alt="Home Screen" />
 </div>
 
 ## Cara Menjalankan
